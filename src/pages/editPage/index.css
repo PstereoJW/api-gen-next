@@ -1,0 +1,14 @@
+.layout {
+  margin-top: 24px;
+}
+
+.content {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin-right: 24px;
+  height: 30px;
+}
