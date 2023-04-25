@@ -3,8 +3,6 @@ import { UploadOutlined } from "@ant-design/icons";
 import { Button, message, Upload } from "antd";
 import type { RcFile, UploadFile, UploadProps } from "antd/es/upload/interface";
 
-const reader = new FileReader();
-
 const UploadFile: React.FC<{
   onChange: (value: string) => void;
 }> = ({ onChange }) => {
